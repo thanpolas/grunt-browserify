@@ -143,7 +143,7 @@ Transforms can also be provided with an options hash; in this case, the transfor
 Type: `[String || Function]`
 Register a browserify plugin with the bundle. As with transforms, plugins are identified with either their NPM name (String) or a function literal.
 
-#### browserifyOptions
+#### bundleOptions
 Type: Object
 A hash of options that are passed to browserify during instantiation.
 [Browserify Github README](https://github.com/substack/node-browserify#var-b--browserifyfiles-or-opts)
